@@ -246,22 +246,33 @@ h1, h2, h3, h4, h5, h6 {
  * Lang selector
  */
 
-.lang-selector
+.lang
 {
 	position:absolute;
 	top:0;
 	left:50%;
+	font-style:italic;
 }
 
 .lang-selector .inner
 {
 	position:relative;
-	left:-50%;
+ 	left:-50%;
 	font-style:italic;
 	padding:4px 14px;
 	background:#b4b4b4;
 	background:rgba(0,0,0,0.35);
 	
+	-webkit-border-radius:0 0 4px 4px;
+	-moz-border-radius:0 0 4px 4px;
+	border-radius:0 0 4px 4px;
+}
+
+.langb
+{
+	padding:4px 14px;
+	background:#b4b4b4;
+
 	-webkit-border-radius:0 0 4px 4px;
 	-moz-border-radius:0 0 4px 4px;
 	border-radius:0 0 4px 4px;
